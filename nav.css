@@ -3,15 +3,20 @@
     padding: 0%;
     box-sizing: border-box;
 }
-.mylogo{
-    width: 100px;
-    height: 120px;
-}
+
 .main{
-    background: url(b.jpg);
+    background-image:url(images/b.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
+}
+.mylogo{
+  padding: 20px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;;
+  display: block;
+  font-size: xx-large;
 }
 .navbar{
 list-style: none;
@@ -33,9 +38,10 @@ ul li a{
     color: rgba(20, 189, 121, 0.676);
 
 }
-.navbar a :hover{
-  border: 2px solid red;
-  color: blue;
+.navbar a:hover,
+.navbar a.active{
+  border-bottom: 2px solid red  ;
+  color: rgb(72, 0, 255);
 }
 .search{
     margin: 10px;
@@ -49,6 +55,108 @@ ul li a{
     border: 1px solid rgb(188, 188, 21);
     margin-top: 13px;  
 }
+.Glenben{
+  width: 200px;
+  height: 250px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.srch {
+  width: 300px;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn {
+  margin-left: 10px;
+}
+
+.btn button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn button:hover {
+  background-color: #45a049;
+}
+
+#my-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.content img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.my-intro {
+  text-align: center;
+}
+
+.my-intro h2 {
+  margin: 10px 0;
+}
+
+.btn-2 {
+  margin-top: 20px;
+}
+
+.social-media-platforms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.icon1, .icon2 {
+  margin: 0 10px;
+}
+.social-media-platforms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-media-platforms .icon1,
+.social-media-platforms .icon2,
+.social-media-platforms .icon3 {
+  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.social-media-platforms .icon1 {
+  background-color: #ff6699;
+}
+
+.social-media-platforms .icon2 {
+  background-color: #00acee;
+}
+
+.social-media-platforms .icon3 {
+  background-color: #585858;
+}
+/* 
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -89,4 +197,4 @@ ul li a{
   
   .card-button:hover {
     background-color: #1BBC62;
-  }
+  } */
